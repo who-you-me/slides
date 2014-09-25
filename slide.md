@@ -21,6 +21,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 ---
 
 # お陰様で急成長を迎えた外資就活ドットコム
+<!-- .element: style="font-size: 2.3em;" -->
 
 - 2人→10人以上のエンジニアチームに
 - 営業、事務などエンジニア以外のメンバーも増加
@@ -101,6 +102,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 ---
 
 # だけど、ずっとそれじゃいけない
+<!-- .element: style="font-size: 1.7em" -->
 
 - シードステージ、アーリーステージからミドルステージに移行する時に、壁にぶつかる
 - それが祖山がジョインした時だった
@@ -191,7 +193,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 ---
 
-画像
+![PivotalTracker](img/PivotalTracker.png)
 
 ---
 
@@ -203,14 +205,15 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 ---
 
-# ふりかえり（レトロスペクティブ）
+# ふりかえり
+## （レトロスペクティブズ）
 
 - KPTT
 - 2週間に1回
 
 ---
 
-写真
+![KPTT](http://howtelevision.co.jp/wp-content/uploads/2014/09/policy_21-1024x453.jpg)
 
 ---
 
