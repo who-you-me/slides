@@ -43,8 +43,8 @@ $headerHeight: 25px;
   background-position: center bottom;
   background-repeat: no-repeat;
   header{
-    background-color: #f9f1ef;
-    padding: 15px 0px 17px;
+//    background-color: #f9f1ef;
+    padding: 10px 0px 12px;
     position: absolute;
     width: 100%;
 
@@ -79,6 +79,6 @@ $headerHeight: 25px;
     line-height: 160%;
   }
   .slides>section, .slides>section>section{
-    padding-top: 0px;
+    padding-top: 10px;
   }
 }

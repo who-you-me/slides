@@ -138,8 +138,7 @@ body {
   background-position: center bottom;
   background-repeat: no-repeat; }
   .reveal header {
-    background-color: #f9f1ef;
-    padding: 15px 0px 17px;
+    padding: 10px 0px 12px;
     position: absolute;
     width: 100%; }
     .reveal header h1.title {
@@ -164,4 +163,4 @@ body {
   .reveal p, .reveal ul li {
     line-height: 160%; }
   .reveal .slides > section, .reveal .slides > section > section {
-    padding-top: 0px; }
+    padding-top: 10px; }
