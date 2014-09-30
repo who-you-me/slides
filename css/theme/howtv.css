@@ -163,4 +163,4 @@ body {
   .reveal p, .reveal ul li {
     line-height: 160%; }
   .reveal .slides > section, .reveal .slides > section > section {
-    padding-top: 10px; }
+    padding-top: 0px; }
