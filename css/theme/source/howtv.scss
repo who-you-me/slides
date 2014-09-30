@@ -1,0 +1,84 @@
+/**
+ * A howtv theme for reveal.js presentations, similar
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Lato', sans-serif;
+$mainColor: #443333;
+$headingFont: 'News Cycle', Impact, sans-serif;
+$headingColor: $mainColor;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$headingLineHeight: 130%;
+$headingMargin: 0px 0px 60px 0px;
+$backgroundColor: #FFFFFF;
+$linkColor: #8B0000;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+
+$headerHeight: 25px;
+
+.reveal{
+  background-image: url("/img/slide_back.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  header{
+    background-color: #f9f1ef;
+    padding: 15px 0px 17px;
+    position: absolute;
+    width: 100%;
+
+    h1.title{
+      display: none;
+      color: #F5F5F5;
+      line-height: $headerHeight;
+      font-size: 18px;
+      text-shadow: none;
+      float: left;
+      margin: 0px 0px 0px 20px;
+    }
+
+    .logo{
+      float: left;
+      margin-left: 20px;
+
+      line-height: $headerHeight;
+      font-size: 10px;
+
+      img{
+        vertical-align: middle;
+        line-height: $headerHeight;
+        max-height: 100%;
+        max-width: 100%;
+        width: 130px;
+      }
+    }
+
+  }
+  p, ul li{
+    line-height: 160%;
+  }
+  .slides>section, .slides>section>section{
+    padding-top: 0px;
+  }
+}
