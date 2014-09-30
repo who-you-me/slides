@@ -86,7 +86,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 - 当たり前のこと
 - 2人で、しかも対面での開発
  - 仕様書書きますか？ <!-- .element: class="fragment" data-fragment-index="1" -->
- - Redmineでプロジェクト管理しますか管理しますか？ <!-- .element: class="fragment" data-fragment-index="2" -->
+ - Redmineでプロジェクト管理しますか？ <!-- .element: class="fragment" data-fragment-index="2" -->
  - わざわざMTGセッティングしますか？ <!-- .element: class="fragment" data-fragment-index="3" -->
 
 ---
