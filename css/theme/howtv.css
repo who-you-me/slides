@@ -164,3 +164,17 @@ body {
     line-height: 160%; }
   .reveal .slides > section, .reveal .slides > section > section {
     padding-top: 0px; }
+  .reveal .slides section {
+    text-align: left;
+    min-height: 70%; }
+    .reveal .slides section h1 {
+      font-size: 170%;
+      position: absolute;
+      top: 33%;
+      text-align: center;
+      width: 100%;
+      letter-spacing: 0.08em; }
+    .reveal .slides section h2 {
+      border-bottom: 1px solid #CCCCCC;
+      padding-bottom: 30px;
+      font-size: 150%; }
