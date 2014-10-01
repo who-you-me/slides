@@ -292,6 +292,8 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 ---
 
+## ふりかえり（レトロスペクティブ）
+
 - 課題が可視化される
 - 定期的に開催されることで、課題が放置されない
 
@@ -303,8 +305,22 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 ## アジャイルな見積もり
 
 - プランニングポーカー
-- 時間がかかるし、消耗する
- - 金曜の午後に行うことが多いが、終わる頃には疲れきっていて、だいたい飲みに行くことになる
+- PivotalTrackerの個々のストーリーよりも大きな単位で見積もる
+ - 「○○機能の実装」とか
+- フィボナッチ数で相対見積もり
+
+~~~haskell
+fib = 0 : 1 : zipWith (+) fib (tail fib)
+~~~
+
+---
+
+## アジャイルな見積もり
+
+- 見積もりは大変
+- いつの間にか実装の詳細に踏み込んでしまい、長引くことが多い
+- 消耗する
+- 終わったら飲みに行く空気になることが多い
 
 ---
 
@@ -314,6 +330,3 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 ## まとめ
 
----
-
-## Wanted!!
