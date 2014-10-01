@@ -1,5 +1,4 @@
-# 負債を解消する
-# アジャイル編
+# 負債を解消する（アジャイル編）
 
 by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
@@ -155,9 +154,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 ---
 
-# <del>あ、これゼミで出たやつだ！</del>
-
-![進研ゼミ](http://blog-imgs-35.fc2.com/k/i/b/kibayable/20100118205857659s.jpg)
+# これはどこかで聞いた話だぞ…
 
 ---
 
@@ -165,7 +162,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 ---
 
-# Let's Scrum
+# Let's Scrum <!-- .element: style="background-color:white;" -->
 
 ![スクラム](http://upload.wikimedia.org/wikipedia/commons/1/1a/ST_vs_Gloucester_-_Match_-_23.JPG)
 
@@ -229,7 +226,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 ---
 
-画像2
+![デイリースクラム](img/daily.jpg)
 
 ---
 
@@ -270,7 +267,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 ---
 
-画像
+![PivotalTracker](img/PivotalTracker.png)
 
 ---
 
@@ -283,12 +280,6 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 ---
 
-## おまけ
-
-「アジャイルなツール」としてはSlackを使ってたりもします
-
----
-
 ## ふりかえり（レトロスペクティブ）
 
 - KPTT
@@ -297,7 +288,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 ---
 
-写真
+![KPTT](img/KPTT.jpg)
 
 ---
 
@@ -305,6 +296,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 - 定期的に開催されることで、課題が放置されない
 
 ![進捗どうですか](https://d3j5vwomefv46c.cloudfront.net/photos/large/811266413.png?1380205345)
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 ---
 

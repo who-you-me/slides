@@ -10,3 +10,7 @@
 .reveal h6 {
   margin-bottom: 20px;
 }
+
+.reveal section img {
+  border: 0;
+}
