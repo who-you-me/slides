@@ -1,4 +1,4 @@
-# 負債を解消する（アジャイル編）
+# 負債を解消する<br />（アジャイル編）
 
 by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
@@ -7,9 +7,10 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 ## お前誰よ
 
 - 祖山 寿雄(Hisao Soyama)
- - [Twitter](https://twitter.com/who_you_me)
- - [GitHub](https://github.com/who-you-me)
- - [Qiita](http://qiita.com/who_you_me)
+    - [Twitter](https://twitter.com/who_you_me)
+    - [GitHub](https://github.com/who-you-me)
+    - [Qiita](http://qiita.com/who_you_me)
+        - ぜんぶ@who_you_me
 - 株式会社ハウテレビジョン所属
 - スタートアップなので必然的にフルスタックにならざるを得ない系エンジニア
 
@@ -18,12 +19,12 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 ## お前誰よ
 
 - 何故か社会学の修士号を所持
- - テキストマイニングやネットワーク分析をやってた
+    - テキストマイニングやネットワーク分析をやってた
 - 新卒で某ISPに入社（2012年）
- - 全く未経験のネットワークエンジニアになる
- - インフラエンジニアのつらみを味わう
+    - 全く未経験のネットワークエンジニアになる
+    - インフラエンジニアのつらみを味わう
 - コードが書きたいのでハウテレビジョンに入社
- - 2014年4月
+    - 2014年4月
 
 ---
 
@@ -33,7 +34,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 ## 急成長を遂げた外資就活ドットコム
 
-- 2人→10人以上のエンジニアチームに
+- 2人→8人以上のエンジニアチームに
 - 営業、事務などエンジニア以外のメンバーも増加
 
 ---
@@ -82,6 +83,9 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 「し、死んでる！？」
 <!-- .element: class="fragment" data-fragment-index="5" -->
 
+# ＿人人 人人＿<br />＞ 突然の死 ＜<br />￣Y^Y^Y^Y￣
+<!-- .element: class="fragment" data-fragment-index="6" style="background-color:white;" -->
+
 ---
 
 # 死んでません
@@ -108,9 +112,9 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 - 当たり前のこと
 - 2人で、しかも対面での開発
- - 仕様書書きますか？ <!-- .element: class="fragment" data-fragment-index="1" -->
- - Redmineとかツール使ってプロジェクト管理しますか？ <!-- .element: class="fragment" data-fragment-index="2" -->
- - わざわざMTGセッティングしますか？ <!-- .element: class="fragment" data-fragment-index="3" -->
+    - 仕様書書きますか？ <!-- .element: class="fragment" data-fragment-index="1" -->
+    - Redmineとかツール使ってプロジェクト管理しますか？ <!-- .element: class="fragment" data-fragment-index="2" -->
+    - わざわざMTGセッティングしますか？ <!-- .element: class="fragment" data-fragment-index="3" -->
 
 ---
 
@@ -118,7 +122,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 - いいねつくろう！ <!-- .element: class="fragment" data-fragment-index="1" -->
 - うおーーーテンション上がってきた <!-- .element: class="fragment" data-fragment-index="2" -->
 - 完成！ <!-- .element: class="fragment" data-fragment-index="3" -->
-  - この繰り返し <!-- .element: class="fragment" data-fragment-index="4" -->
+    - この繰り返し <!-- .element: class="fragment" data-fragment-index="4" -->
 - ウォーターフォールもアジャイルもない。四の五の考えてる暇があったら早く作るべき <!-- .element: class="fragment" data-fragment-index="5" -->
 
 ---
@@ -136,13 +140,13 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 - もともとPythonista
 - ネットワークエンジニアを1年ほど
- - 1行もコードを書かない
- - Ciscoのコマンドならアホほど叩いた
+    - 1行もコードを書かない
+    - Ciscoのコマンドならアホほど叩いた
 - チーム開発？　あーそれ研修でやったわ
- - 5人チームで1ヶ月
- - スクラムでやった
+    - 5人チームで1ヶ月
+    - スクラムでやった
 - その後、先輩に誘われて「スクラムを広めよう」みたいなワークグループに入ってた
- - スクラムの何たるかはそこで知った
+    - スクラムの何たるかはそこで知った
 
 ---
 
@@ -165,6 +169,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 # Let's Scrum <!-- .element: style="background-color:white;" -->
 
 ![スクラム](http://upload.wikimedia.org/wikipedia/commons/1/1a/ST_vs_Gloucester_-_Match_-_23.JPG)
+<!-- .element: style="width:2000px; height:800px; " -->
 
 ---
 
@@ -195,16 +200,16 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 ## 全部やらなくていい
 
 - 「次のプロジェクトからスクラムでやろう」なんて余裕はない
- - 問題山積みで、早く何とかしないとﾀﾋぬ
+    - 問題山積みで、早く何とかしないとﾀﾋぬ
 - 必要なこと、すぐにできそうなことからやろう
 
 ---
 
 - 幸い、プロセス面に関しては技術面と違い、Yakの毛を延ばさくてもいい（ことが多い）
- - 中途半端に「chefやろう」「Vagrantやろう」とすると後に負債になり得る
- - 中途半端にスクラムやっても負債にはならない
-  - 駄目ならすぐやめればいい
-- 「うまくいかなかったね…」で終わってしまい、以後スクラムを取り入れにくくなるリスクはある
+    - 中途半端に「chefやろう」「Vagrantやろう」とすると後に負債になり得る
+    - 中途半端にスクラムやっても負債にはならない
+        - 駄目ならすぐやめればいい
+    - 「うまくいかなかったね…」で終わってしまい、以後スクラムを取り入れにくくなるリスクはある
 
 ---
 
@@ -217,7 +222,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 ## デイリースクラム
 
 - これはCTOが始めた
-- チームが大きくなり、notフルタイムやインターンも増えたため、各自の進捗が把握しづらくなっていた
+- チームが大きくなり、フリーランスやインターンも増えたため、各自の進捗が把握しづらくなっていた
 - 「昨日やったこと」「今日やること」「困っていること」を報告するオーソドックスなやり方
 
 ---
@@ -233,7 +238,6 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 ## スプリント計画
 
 - 「どの順番で、いつ、何ができるのか」が把握できなくなっていた
-
 - 2週間に一度のタイミングで、このスプリントに実装するフィーチャを洗い出し、見積もる
 
 ---
@@ -241,11 +245,10 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 ## スプリント計画
 
 - 教科書的なやり方はフィットしなかった
-
- - アジャイルなチームは機能横断的
- - とはいえ、エンジニア数人のスタートアップでは、どうしても各自やることがバラバラになる
-  - サービス開発する人、バグ直す人、開発環境整備する人、など
- - そのため、全員揃って見積もりをする意味があまりない
+    - アジャイルなチームは機能横断的
+    - とはいえ、エンジニア数人のスタートアップでは、どうしても各自やることがバラバラになる
+        - サービス開発する人、バグ直す人、開発環境整備する人、など
+    - そのため、全員揃って見積もりをする意味があまりない
 
 ---
 
@@ -253,7 +256,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 - 1機能ごとに1〜2人のミニチームのような形になり、そのメンバーで見積もり
 - 「スプリント」も特に設けていない
- - 「自社サービスだと延々と切れ目なく開発続くから、2週間毎にがっつり計画し続けるのはしんどいよね」的なことを@naoya_itoがどこかで言ってた（気がする）
+    - 「自社サービスだと延々と切れ目なく開発続くから、2週間毎にがっつり計画し続けるのはしんどいよね」的なことを@naoya_itoがどこかで言ってた（気がする）
 - 「優先順位をつけ、上から順に開発する」という原則は生きている
 
 ---
@@ -262,8 +265,8 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 - アジャイルな開発にはアジャイルなツールが必要
 - PivotalTrackerを採用
- - 決め手はシンプルさ
- - Redmineは入れるのが面倒なのと、機能が豊富すぎる
+    - 決め手はシンプルさ
+    - Redmineは入れるのが面倒なのと、機能が豊富すぎる
 
 ---
 
@@ -276,7 +279,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 - 「開発フローに合わせてツールをカスタマイズする」のではなく、「開発フローをツールに合わせる」ことが大事
 - PivotalTrackerはシンプルで、カスタマイズはあまりできない
 - 裏を返せば「PivotalTrackerに開発フローを合わせることで、自然とスクラムになる」ということ
- - 管理ツールも「レールに乗る」という発想
+    - 管理ツールも「レールに乗る」という発想
 
 ---
 
@@ -306,7 +309,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 - プランニングポーカー
 - PivotalTrackerの個々のストーリーよりも大きな単位で見積もる
- - 「○○機能の実装」とか
+    - 「○○機能の実装」とか
 - フィボナッチ数で相対見積もり
 
 ~~~haskell
