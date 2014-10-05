@@ -139,7 +139,7 @@ by Hisao Soyama ([@who_you_me](https://twitter.com/who_you_me))
 
 ---
 
-![スクラム](/img/scrum.jpg)
+![スクラム](img/scrum.jpg)
 <!-- .element: style="width:900px;" -->
 
 ---
