@@ -30,7 +30,10 @@ Hisao Soyama / [@who_you_me](https://twitter.com/who_you_me)
 
 ---
 
-# はじめに
+# はじめに <!-- .element: style="background-color:white;" -->
+
+<!-- .element: class="img-center-full" -->
+![はじめに](http://upload.wikimedia.org/wikipedia/commons/c/cd/Athletic_Feet_at_Starting_Block.jpg)
 
 ---
 
@@ -90,6 +93,13 @@ Hisao Soyama / [@who_you_me](https://twitter.com/who_you_me)
 
 ---
 
+# ＿人人 人人＿<br />＞ 突然の死 ＜<br />￣Y^Y^Y^Y￣
+
+<!-- .element: class="img-center-full" -->
+![炎上](http://upload.wikimedia.org/wikipedia/commons/7/77/%E5%AE%B6%E5%B1%8B%E7%81%AB%E7%81%BD%E3%83%97%E3%83%AD%E3%83%91%E3%83%B3%E3%82%AC%E3%82%B9%E7%88%86%E7%99%BA%E3%81%AE%E7%9E%AC%E9%96%93P6014951b.jpg)
+
+---
+
 # 死んでません
 
 念のため…
@@ -127,6 +137,11 @@ Hisao Soyama / [@who_you_me](https://twitter.com/who_you_me)
 
 ---
 
+<!-- .element: class="img-center-full" -->
+![炎上](http://upload.wikimedia.org/wikipedia/commons/7/77/%E5%AE%B6%E5%B1%8B%E7%81%AB%E7%81%BD%E3%83%97%E3%83%AD%E3%83%91%E3%83%B3%E3%82%AC%E3%82%B9%E7%88%86%E7%99%BA%E3%81%AE%E7%9E%AC%E9%96%93P6014951b.jpg)
+
+---
+
 # これはどこかで聞いた話だぞ…
 
 ---
@@ -137,12 +152,13 @@ Hisao Soyama / [@who_you_me](https://twitter.com/who_you_me)
 
 # Let's Scrum <!-- .element: style="background-color:white;" -->
 
+<!-- .element: class="img-center-full" -->
 ![スクラム](http://upload.wikimedia.org/wikipedia/commons/1/1a/ST_vs_Gloucester_-_Match_-_23.JPG)
 
 ---
 
+<!-- .element: class="img-center-full" -->
 ![スクラム](img/scrum.jpg)
-<!-- .element: style="width:900px;" -->
 
 ---
 
@@ -166,7 +182,9 @@ Hisao Soyama / [@who_you_me](https://twitter.com/who_you_me)
 
 ---
 
-# 全部やらなくていい
+# 全部やらなくていい <!-- .element: style="background-color:white; top:10%" -->
+
+![wisdom](img/wisdom.jpg)
 
 ---
 
@@ -211,8 +229,13 @@ http://agile.esm.co.jp/scrum/about.html
 
 ---
 
-<!-- .element: style="width: 600px; margin: 0 auto;" -->
+<!-- .element: class="img-center-full" -->
 ![デイリースクラム](img/daily.jpg)
+
+---
+
+<!-- .element: class="img-center-full" -->
+![デイリースクラム](img/daily2.jpg)
 
 ---
 
@@ -251,16 +274,17 @@ http://agile.esm.co.jp/scrum/about.html
 ## スプリント計画
 
 - 教科書的なやり方はフィットしなかった
-    - アジャイルなチームは機能横断的
-    - とはいえ、エンジニア数人のスタートアップでは、どうしても各自やることがバラバラになる
+    - 全員で見積もりをするのはすごいコストがかかる
+    - エンジニア数人のスタートアップでは、どうしても各自やることがバラバラになる
         - サービス開発する人、バグ直す人、開発環境整備する人、など
-    - そのため、全員揃って見積もりをする意味があまりない
+        - どれを誰が実装するかは、事前にほぼ目星がついている
+    - 自分でやらないものを見積もるメリットがない
 
 ---
 
 ## スプリント計画
 
-- 現在では、1機能ごとに1〜2人のミニチームのような形になり、そのメンバーで見積もり
+- 現在では、1機能ごとに1〜2人のミニチームのような形になり、そのメンバーで見積もっている
 - 「スプリント」も特に設けていない
     - 「自社サービスだと延々と切れ目なく開発続くから、2週間毎にがっつり計画し続けるのはしんどいよね」的なことを@naoya_itoがどこかで言ってた（気がする）
 
@@ -269,6 +293,9 @@ http://agile.esm.co.jp/scrum/about.html
 ## スプリント計画
 
 - 「優先順位をつけ、上から順に開発する」という原則は生きており、重要！
+
+<!-- .element: class="img-center" -->
+![上から下](http://upload.wikimedia.org/wikipedia/commons/a/a9/%D0%A1%D0%B2%D0%B5%D1%80%D1%85%D1%83_%D0%B2%D0%BD%D0%B8%D0%B7.jpg)
 
 ---
 
@@ -282,8 +309,8 @@ http://agile.esm.co.jp/scrum/about.html
 
 ---
 
+<!-- .element: class="img-center-full" -->
 ![PivotalTracker](img/PivotalTracker.png)
-<!-- .element: style="width:900px;" -->
 
 ---
 
@@ -322,9 +349,8 @@ http://agile.esm.co.jp/scrum/about.html
 
 ---
 
-<!-- .element: style="margin: 0 auto;" -->
+<!-- .element: class="img-center-full" -->
 ![KPTT](img/KPTT.jpg)
-<!-- .element: style="width: 800px;" -->
 
 ---
 
@@ -339,47 +365,19 @@ http://agile.esm.co.jp/scrum/about.html
 
 ---
 
-## アジャイルな見積もり
+# まとめ <!-- .element: style="background-color:white;" -->
 
-- 見積もれないと計画立てられないので、これは必須
-
-- プランニングポーカーを採用
-- 「インタビューページの開発」のような大きな単位で見積もる
-    - フィーチャ単位で見積もると時間が掛かり過ぎる
+<!-- .element: class="img-center-full" -->
+![まとめ](http://upload.wikimedia.org/wikipedia/commons/d/da/%E3%83%A9%E3%82%B0%E3%83%93%E3%83%BC%E5%A0%B4.jpg)
 
 ---
 
-## アジャイルな見積もり
-
-- 不定期開催
-- フィボナッチ数で相対見積もり
-
-~~~haskell
-fib = 0 : 1 : zipWith (+) fib (tail fib)
-~~~
-
----
-
-## アジャイルな見積もり
-
-- 見積もりは大変
-    - 「どうやって実装するか決めないと見積もれない」
-    - 実装の詳細に踏み込んでしまい、長引くことが多い
-- 消耗するので、終わったら飲みに行く空気になることが多い
-- 大変だが必須なので、金曜の午後とかに時間を取ってゆっくりやろう
-
----
-
-# まとめ
-
----
-
-## 炎上してた開発現場にスクラムを導入した結果ｗｗｗｗｗ
+## 炎上してた開発現場にスクラムを導入した結果ｗｗｗｗｗｗｗｗｗｗ
 
 - できたこと
     - 開発案件を優先度順に並べて管理することで、計画が見える化
     - PivotalTrackerの導入によるタスクの一元管理
-        - + デイリースクラムで進捗の可視化
+        - ＋デイリースクラムで進捗の可視化
     - デイリースクラムやふりかえりで問題点を可視化される
         - 改善のプロセスが回る
 
@@ -392,7 +390,10 @@ fib = 0 : 1 : zipWith (+) fib (tail fib)
 
 ---
 
-# 最後に
+# 最後に <!-- .element: style="background-color:white;" -->
+
+<!-- .element: class="img-center-full" -->
+![最後に](http://upload.wikimedia.org/wikipedia/commons/2/23/Seikei_University_Rugby_Football_Club_Players.jpg)
 
 ---
 
@@ -415,6 +416,11 @@ fib = 0 : 1 : zipWith (+) fib (tail fib)
 
 # 一度オフィスに<br />遊びに来てください
 <!-- .element: class="fragment" data-fragment-index="1" -->
+
+---
+
+<!-- .element: class="img-center" -->
+![Wanted](http://upload.wikimedia.org/wikipedia/commons/d/d8/I_want_you_for_U.S._Army_3b48465u_edit.jpg)
 
 ---
 

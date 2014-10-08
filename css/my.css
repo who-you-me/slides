@@ -14,3 +14,14 @@
 .reveal section img {
   border: 0;
 }
+
+p.img-center,
+p.img-center-full {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img-center-full img {
+  width: 900px;
+}
+
