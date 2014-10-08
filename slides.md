@@ -1,4 +1,4 @@
-# 技術的負債を解消する<br />プロジェクト管理
+# 技術的負債を解消する<br />（アジャイル編）
 
 Hisao Soyama / [@who_you_me](https://twitter.com/who_you_me)
 
