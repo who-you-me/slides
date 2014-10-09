@@ -6,6 +6,10 @@ Hisao Soyama / [@who_you_me](https://twitter.com/who_you_me)
 
 ---
 
+# 炎上してた開発現場にスクラムを導入した結果ｗｗｗｗｗｗｗｗｗｗ
+
+---
+
 ## お前誰よ
 
 - 祖山 寿雄(Hisao Soyama)
