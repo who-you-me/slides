@@ -294,8 +294,11 @@ http://agile.esm.co.jp/scrum/about.html
 
 - 「優先順位をつけ、上から順に開発する」という原則は生きており、重要！
 
-<!-- .element: class="img-center" -->
+<p class="img-center">
 ![上から下](http://upload.wikimedia.org/wikipedia/commons/a/a9/%D0%A1%D0%B2%D0%B5%D1%80%D1%85%D1%83_%D0%B2%D0%BD%D0%B8%D0%B7.jpg)
+<!-- .element: style="height:500px;" -->
+</p>
+
 
 ---
 
@@ -419,8 +422,10 @@ http://agile.esm.co.jp/scrum/about.html
 
 ---
 
-<!-- .element: class="img-center" -->
+<p class="img-center">
 ![Wanted](http://upload.wikimedia.org/wikipedia/commons/d/d8/I_want_you_for_U.S._Army_3b48465u_edit.jpg)
+<!-- .element: style="height: 600px" -->
+</p>
 
 ---
 
