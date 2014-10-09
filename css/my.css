@@ -25,3 +25,6 @@ p.img-center-full {
   width: 900px;
 }
 
+.reveal code {
+  font-family: Inconsolata;
+}
