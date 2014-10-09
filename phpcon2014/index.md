@@ -16,11 +16,11 @@ PHPカンファレンス2014
         - ぜんぶ@who_you_me
 
 <!-- .element: class="img-center" -->
-![who_you_me](/img/yarikirenai.jpg)
+![who_you_me](../img/yarikirenai.jpg)
 
 ---
 
-![外資就活ドットコム](/img/gaishi.png)
+![外資就活ドットコム](../img/gaishi.png)
 
 ---
 
@@ -63,7 +63,7 @@ Webサーバのアクセスログを有効に活用することで、問題発�
 # 三行で <!-- .element: style="background-color:white;" -->
 
 <!-- .element: class="img-center-full" -->
-![今北産業](/img/sangyo.jpg)
+![今北産業](../img/sangyo.jpg)
 
 ---
 
@@ -127,7 +127,7 @@ Webサーバのアクセスログを有効に活用することで、問題発�
 
 ---
 
-![生ログ](/img/raw_log.png)
+![生ログ](../img/raw_log.png)
 
 # ＿人人人人人人人＿<br />＞　生ログ目視　＜<br />￣Y^Y^Y^Y^Y^Y￣
 <!-- .element: style="top:25%; color:yellow" -->
@@ -139,7 +139,7 @@ Webサーバのアクセスログを有効に活用することで、問題発�
 ---
 
 <!-- .element: class="img-center" -->
-![grep](/img/grep.jpg)
+![grep](../img/grep.jpg)
 
 ---
 
@@ -148,7 +148,7 @@ Webサーバのアクセスログを有効に活用することで、問題発�
 ---
 
 <!-- .element: class="img-center" -->
-![sed&awk](/img/sed_awk.jpg)
+![sed&awk](../img/sed_awk.jpg)
 
 ---
 
@@ -169,7 +169,7 @@ $ gunzip access.log.*.gz
 <!-- .element: style="font-size:1.2em;" -->
 
 <!-- .element: class="fragment img-center" data-fragment-index="1" -->
-![ダディ](/img/daddy.png)
+![ダディ](../img/daddy.png)
 
 ---
 
@@ -226,7 +226,7 @@ $ gunzip access.log.*.gz
 ---
 
 <!-- .element: class="img-center" -->
-![who_you_me](/img/yarikirenai.jpg)
+![who_you_me](../img/yarikirenai.jpg)
 
 - 本職はWebエンジニア
 - 開発環境整備とかもやってる
@@ -306,11 +306,11 @@ $ gunzip access.log.*.gz
 
 ---
 
-![BQ](/img/bigquery1.png)
+![BQ](../img/bigquery1.png)
 
 ---
 
-![BQ](/img/bigquery2.png)
+![BQ](../img/bigquery2.png)
 
 ---
 
@@ -320,7 +320,7 @@ $ gunzip access.log.*.gz
     - ただし、クエリがちょっと馴染みにくい
 
 <!-- .element: class="img-center" -->
-![Elasticsearchのクエリ](/img/query.png)
+![Elasticsearchのクエリ](../img/query.png)
 
 ---
 
@@ -345,7 +345,7 @@ $ gunzip access.log.*.gz
 
 ---
 
-![fluentd](/img/fluentd.png)
+![fluentd](../img/fluentd.png)
 
 ---
 
@@ -387,7 +387,7 @@ $ gunzip access.log.*.gz
 
 ---
 
-![fluentd](/img/fluentd2.png)
+![fluentd](../img/fluentd2.png)
 
 ---
 
