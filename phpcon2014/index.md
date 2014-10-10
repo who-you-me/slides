@@ -1,4 +1,5 @@
 PHPカンファレンス2014
+
 2014/10/11
 
 @who_you_me
@@ -245,6 +246,10 @@ $ gunzip access.log.*.gz
 
 # Elasticsearch & Kibana
 
+<!-- .element: class="img-center" style="margin-top: 30%;" -->
+![Elasticsearch](/img/elasticsearch.png)
+![Kibana](/img/kibana.png)
+
 ---
 
 ## Elasticsearch
@@ -267,11 +272,16 @@ $ gunzip access.log.*.gz
 
 ---
 
-# 構成図
+<!-- .element: class="img-center" -->
+![Elasticsearch + Kibana](/img/el_kibana.png)
 
 ---
 
-# こんな感じ<br />（実際の画面を見せる）
+# こんな感じ
+
+---
+
+# もう目grep
 
 ---
 
