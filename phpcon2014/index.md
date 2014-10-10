@@ -334,6 +334,10 @@ $ gunzip access.log.*.gz
 
 ---
 
+![BQ](../img/bigquery3.png)
+
+---
+
 ## ちなみに
 
 - BigQuery, Elasticsearchのどちらも、単体で1, 2の要件を満たすことはできる
