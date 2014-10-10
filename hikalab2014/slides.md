@@ -162,7 +162,7 @@ Hisao Soyama / [@who_you_me](https://twitter.com/who_you_me)
 ---
 
 <!-- .element: class="img-center-full" -->
-![スクラム](img/scrum.jpg)
+![スクラム](../img/scrum.jpg)
 
 ---
 
@@ -188,7 +188,7 @@ Hisao Soyama / [@who_you_me](https://twitter.com/who_you_me)
 
 # 全部やらなくていい <!-- .element: style="background-color:white; top:10%" -->
 
-![wisdom](img/wisdom.jpg)
+![wisdom](../img/wisdom.jpg)
 
 ---
 
@@ -234,12 +234,12 @@ http://agile.esm.co.jp/scrum/about.html
 ---
 
 <!-- .element: class="img-center-full" -->
-![デイリースクラム](img/daily.jpg)
+![デイリースクラム](../img/daily.jpg)
 
 ---
 
 <!-- .element: class="img-center-full" -->
-![デイリースクラム](img/daily2.jpg)
+![デイリースクラム](../img/daily2.jpg)
 
 ---
 
@@ -317,7 +317,7 @@ http://agile.esm.co.jp/scrum/about.html
 ---
 
 <!-- .element: class="img-center-full" -->
-![PivotalTracker](img/PivotalTracker.png)
+![PivotalTracker](../img/PivotalTracker.png)
 
 ---
 
@@ -357,7 +357,7 @@ http://agile.esm.co.jp/scrum/about.html
 ---
 
 <!-- .element: class="img-center-full" -->
-![KPTT](img/KPTT.jpg)
+![KPTT](../img/KPTT.jpg)
 
 ---
 
