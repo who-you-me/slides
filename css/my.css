@@ -31,3 +31,7 @@ p.img-center-full {
   font-size: 1.5em;
   line-height: 120%;
 }
+
+strong {
+  color: red;
+}

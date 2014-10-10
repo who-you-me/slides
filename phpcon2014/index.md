@@ -2,11 +2,11 @@ PHPカンファレンス2014
 
 @who_you_me
 
-# 今日から始める<br />PHPエンジニアのための<br />アクセスログ解析基盤構築入門
+# **今日から始める**<br />PHPエンジニアのための<br />アクセスログ解析基盤構築入門
 
 ---
 
-## お前 is 誰
+## お前 is **誰**
 
 - 祖山 寿雄(Hisao Soyama)
     - [Twitter](https://twitter.com/who_you_me)
@@ -19,20 +19,25 @@ PHPカンファレンス2014
 
 ---
 
-![外資就活ドットコム](../img/gaishi.png)
-
----
-
-## お前 is 誰
+## お前 is **誰**
 
 - 株式会社ハウテレビジョン所属
-
-# 一緒に働きたい人を（ｒｙ
-<!-- .element: class="fragment img-center" data-fragment-index="1" -->
+- 外資就活ドットコム
+    - 新卒向け求人メディア
+    - 2010年リリース
+    - 東大/慶応大の就活生の半数が会員登録している
+    - WordPressとCakePHPでできている
 
 ---
 
-## お前 is 誰
+![外資就活ドットコム](../img/gaishi.png)
+
+# **一緒に働きたい人を（ｒｙ**
+<!-- .element: class="fragment img-center" data-fragment-index="1" style="background-color:white;" -->
+
+---
+
+## お前 is **誰**
 
 - Pythonの世界の住人
 - 仕事はPHP
@@ -84,7 +89,7 @@ Webサーバのアクセスログを有効に活用することで、問題発�
 
 ---
 
-# PHP is 何
+# PHP is **何**
 
 ---
 
@@ -92,7 +97,7 @@ Webサーバのアクセスログを有効に活用することで、問題発�
 
 ---
 
-# PHPは、Webアプリケーションを作るための言語です
+# PHPは、 **Webアプリケーション** を作るための言語です
 
 あってるよね…？
 
@@ -106,11 +111,11 @@ Webサーバのアクセスログを有効に活用することで、問題発�
 
 ---
 
-# ログ is どこ
+# ログ is **どこ**
 
 ---
 
-## たぶんサーバのどこかにある
+## たぶんサーバの **どこか** にある
 
 - アクセスログなら/var/log/httpdとか/var/log/nginxとか
 - CakePHPならapp/tmp/logs
@@ -155,17 +160,17 @@ Webサーバのアクセスログを有効に活用することで、問題発�
 
 ---
 
-# そもそも<br />古いログは圧縮されてる
+# そもそも<br />古いログは **圧縮** されてる
 
 ---
 
-```bash
+```no-highlight
 $ mkdir /home/soyama/log
 $ cp access.log.*.gz /home/soyama/log/
 $ cd /home/soyama/log/
 $ gunzip access.log.*.gz
 ```
-<!-- .element: style="font-size:1.2em;" -->
+<!-- .element: style="font-size:0.7em;" -->
 
 <!-- .element: class="fragment img-center" data-fragment-index="1" -->
 ![ダディ](../img/daddy.png)
@@ -184,7 +189,7 @@ $ gunzip access.log.*.gz
 
 ---
 
-# アクセスログ<br />is<br />ユーザーの行動履歴
+# アクセスログ<br />＝<br />ユーザーの行動履歴
 
 ---
 
@@ -279,7 +284,7 @@ $ gunzip access.log.*.gz
 
 ---
 
-# もう目grepには戻れない
+# もう **目grep** には戻れない
 
 ---
 
@@ -302,11 +307,11 @@ $ gunzip access.log.*.gz
 
 - Googleが提供するデータストア 兼 クエリエンジン
 - SQLを大量のサーバで並列分散処理することで超高速に処理
-    - つまりSQLライクなクエリが書ける
+    - つまり **SQLライクなクエリが書ける**
     - これ大きい！
-- 安い
-- 安い
-- 安い
+- ** 安い **
+- ** 安い **
+- ** 安い **
 
 ---
 
@@ -344,7 +349,7 @@ $ gunzip access.log.*.gz
 
 - Elasticsearchでももちろん集計処理ができる
     - ただし、データ量が多くなるとクラスタ組んだりしないといけなくなる
-    - 片手間でやりたいのに！
+    - **片手間** でやりたいのに！
 - BigQueryならデータ投げるだけ投げておけば、後の面倒くさいことは全部Google先生がやってくれる
 
 ---
@@ -355,7 +360,7 @@ $ gunzip access.log.*.gz
     - Tableauと接続できる
         - たぶん他のBIツールもいける
     - ただしTableauはそれなりにお金がかかる
-    - クエリ課金のため、アドホックなクエリ投げまくるとお金がかかる
+    - **クエリ課金** のため、アドホックなクエリ投げまくるとお金がかかる
 
 ---
 
@@ -417,7 +422,7 @@ $ gunzip access.log.*.gz
 - ログのフィルタリングなんかもできる
     - 必要なログだけ次に渡す
     - ログの中身によって出力先を変える
-    - 新しいフィールドを追加する
+    - データを加工する
 
 ---
 
@@ -426,7 +431,7 @@ $ gunzip access.log.*.gz
 
 ---
 
-# フローの制御はタグで行う<br />（詳細はのちほど）
+# フローの制御は **タグ** で行う<br />（詳細はのちほど）
 
 ---
 
@@ -495,10 +500,10 @@ https://gist.github.com/who-you-me/d37544f3147aa3eb4213
 </match>
 ```
 
-- fluent-plugin-rewrite-tag-filter を使って、正規表現でタグを付け替える
-- 静的ファイルにはタグの末尾に'clear'をつける
+- **fluent-plugin-rewrite-tag-filter** を使って、正規表現でタグを付け替える
+- 静的ファイルにはタグの末尾に **clear** をつける
     - BigQueryには保存しないための印
-- それ以外には'accept'をつける
+- それ以外には **accept** をつける
 
 ---
 
@@ -510,8 +515,8 @@ https://gist.github.com/who-you-me/d37544f3147aa3eb4213
 </match>
 ```
 
-- fluent-plugin-record-reformer を使ってタグを書き換える
-    - nginx.access.accept.201407 とか 201408とか
+- **fluent-plugin-record-reformer** を使ってタグを書き換える
+    - nginx.access.accept.**201407** とか **201408** とか
     - 末尾の年月によってBigQueryのテーブルを切り替える（次で）
 - nginx.access.clear はここでは処理されない
 
@@ -534,7 +539,7 @@ https://gist.github.com/who-you-me/d37544f3147aa3eb4213
 ```
 
 - 複数の宛先に送るのに copy を使う
-- タグの中身で動的に保存先テーブルを変えるのには、fluent-plugin-forest を使う
+- タグの中身で動的に保存先テーブルを変えるのには、 **fluent-plugin-forest** を使う
 
 ---
 
@@ -580,11 +585,11 @@ https://gist.github.com/who-you-me/d37544f3147aa3eb4213
 ---
 
 - case セクションはPHPのswitch-caseと同じようなもの
-    - タグに'accept'がついたログ（BigQueryに入れたいログ）だけ処理する
-- ${tag_parts[-1]} がミソ
-    - ${tag_parts[-1]} とすることで、タグの末尾の値を埋め込むことができる
-        - accept.201408 なら 201408
-    - これによって、8月なら nginx_201408 、9月なら nginx_201409 といった次第に、保存先のテーブルを変化させられる
+    - タグに **accept** がついたログ（BigQueryに入れたいログ）だけ処理する
+- **${tag_parts[-1]}** がミソ
+    - こうすることで、タグの末尾の値を取得することができる
+        - accept.201408 なら **201408**
+    - これによって、8月なら **nginx_201408** 、9月なら **nginx_201409** といった次第に、保存先のテーブルを変化させられる
 
 ---
 
@@ -597,11 +602,48 @@ https://gist.github.com/who-you-me/d37544f3147aa3eb4213
 
 ---
 
-## 注意点
+# まとめ
 
-- クライアントサイドで動く
-- AJAXでElasticsearchのAPIをクライアントから直接叩いている
-- Elasticsearchには認証機能とかない
-- iptablesで縛る or リバースプロキシ経由にして、Webサーバで認証する
+---
+
+## まとめ
+
+- Elasticsearch + Kibana で目grepにサヨナラしよう
+- お金かからなそうなら取りあえずBigQueryに入れちゃおう
+- fluentdなら大抵のことはできる
+
+---
+
+## こまごまとした注意点
+
+- KibanaではAJAXでクライアントから直接Elasticsearchにアクセスする
+    - ポート空けとかないといけない
+- Elasticsearchには認証機構がない
+    - iptablesで縛る
+    - リバースプロキシを噛ませる
 - Kibana4のBetaが出たので、動向追いかけておくといいかも知れない
 
+---
+
+## こまごまとした注意点
+
+- セキュリティ
+    - BigQueryプラグインは暗号化してくれてるので安心
+    - Elasticsearchには暗号化せず送ってしまう
+        - 安全が担保されているネットワークで使う
+        - そうじゃない場合、fluent-plugin-secure-forward を使う
+
+---
+
+## 今日話せなかったこと
+
+- アプリのログも流しちゃう
+    - fluent-logger-php
+- アプリのログ取るのは面倒くさいから全部nginxのログで済ませようと画策する
+    - ユーザーIDをアクセスログに記録する
+    - セッションIDをアクセスログに記録する
+    - ただしこれらの情報はクライアントには返さない
+
+---
+
+# 以上、<br />ご清聴ありがとうございました
