@@ -13,6 +13,7 @@
 
 .reveal section img {
   border: 0;
+  box-shadow: 0 0 0;
 }
 
 p.img-center,
@@ -27,4 +28,6 @@ p.img-center-full {
 
 .reveal code {
   font-family: Inconsolata;
+  font-size: 1.5em;
+  line-height: 120%;
 }

@@ -275,7 +275,7 @@ $ gunzip access.log.*.gz
 
 ---
 
-# こんな感じ（デモ）
+# こんな感じ<br />（デモ）
 
 ---
 
@@ -293,6 +293,9 @@ $ gunzip access.log.*.gz
 
 # BigQuery
 
+<!-- .element: class="img-center" style="margin-top: 30%;" -->
+![BigQuery](../img/bigquery.png)
+
 ---
 
 ## BigQueryとは
@@ -304,6 +307,10 @@ $ gunzip access.log.*.gz
 - 安い
 - 安い
 - 安い
+
+---
+
+![価格表](../img/bq_price.png)
 
 ---
 
@@ -324,7 +331,8 @@ $ gunzip access.log.*.gz
 
 ## ちなみに
 
-- Elasticsearchでももちろん検索、集計できる
+- BigQuery, Elasticsearchのどちらも、単体で1, 2の要件を満たすことはできる
+    - Elasticsearchでももちろん集計処理ができる
     - ただし、クエリがちょっと馴染みにくい
 
 <!-- .element: class="img-center" -->
@@ -334,10 +342,24 @@ $ gunzip access.log.*.gz
 
 ## ちなみに
 
-- Elasticsearchでももちろん検索、集計できる
+- Elasticsearchでももちろん集計処理ができる
     - ただし、データ量が多くなるとクラスタ組んだりしないといけなくなる
     - 片手間でやりたいのに！
 - BigQueryならデータ投げるだけ投げておけば、後の面倒くさいことは全部Google先生がやってくれる
+
+---
+
+## ちなみに
+
+- BigQueryでもアドホックに検索したり、ダッシュボード作ることができる
+    - Tableauと接続できる
+        - たぶん他のBIツールもいける
+    - ただしTableauはそれなりにお金がかかる
+    - クエリ課金のため、アドホックなクエリ投げまくるとお金がかかる
+
+---
+
+# どちらもセットアップ簡単なので、両方導入して使い分けちゃえばいいと思います
 
 ---
 
@@ -362,6 +384,10 @@ $ gunzip access.log.*.gz
 - Ruby製のログ収集ツール
 - 軽量
 - プラグインが豊富
+
+---
+
+![fluentd](../img/fluentd2.png)
 
 ---
 
@@ -395,11 +421,25 @@ $ gunzip access.log.*.gz
 
 ---
 
-![fluentd](../img/fluentd2.png)
+<!-- .element: class="img-center" style="background-color:white;" -->
+![フロー](../img/fluentd_flow.png)
 
 ---
 
-## fluentdでログを流そう！
+# フローの制御はタグで行う<br />（詳細はのちほど）
+
+---
+
+# やってみよう！
+
+---
+
+<!-- .element: class="img-center" -->
+![構成](../img/example.png)
+
+---
+
+## fluentdで実際にログを流そう！
 
 - Elasticsearchへはプラグインさえ入れれば、ほとんど設定することはない
     - fluent-plugin-elasticsearch
@@ -417,11 +457,16 @@ $ gunzip access.log.*.gz
 
 ---
 
-# configの例
+# config
 
 ---
 
 https://gist.github.com/who-you-me/d37544f3147aa3eb4213
+
+---
+
+<!-- .element: class="img-center" -->
+![この場合のフロー](../img/example_flow.png)
 
 ---
 
@@ -530,16 +575,16 @@ https://gist.github.com/who-you-me/d37544f3147aa3eb4213
     </store>
   </case>
 ```
+<!-- .element: style="font-size:0.35em;" -->
+
+---
 
 - case セクションはPHPのswitch-caseと同じようなもの
     - タグに'accept'がついたログ（BigQueryに入れたいログ）だけ処理する
 - ${tag_parts[-1]} がミソ
-
----
-
-- ${tag_parts[-1]} とすることで、タグの末尾の値を埋め込むことができる
-    - accept.201408 なら 201408
-- これによって、8月なら nginx_201408 、9月なら nginx_201409 といった次第に、保存先のテーブルを変化させられる
+    - ${tag_parts[-1]} とすることで、タグの末尾の値を埋め込むことができる
+        - accept.201408 なら 201408
+    - これによって、8月なら nginx_201408 、9月なら nginx_201409 といった次第に、保存先のテーブルを変化させられる
 
 ---
 
