@@ -245,8 +245,8 @@ $ gunzip access.log.*.gz
 # Elasticsearch & Kibana
 
 <!-- .element: class="img-center" style="margin-top: 30%;" -->
-![Elasticsearch](/img/elasticsearch.png)
-![Kibana](/img/kibana.png)
+![Elasticsearch](../img/elasticsearch.png)
+![Kibana](../img/kibana.png)
 
 ---
 
@@ -271,7 +271,7 @@ $ gunzip access.log.*.gz
 ---
 
 <!-- .element: class="img-center" -->
-![Elasticsearch + Kibana](/img/el_kibana.png)
+![Elasticsearch + Kibana](../img/el_kibana.png)
 
 ---
 
